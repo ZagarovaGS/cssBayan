@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+}
+
+.mems{
+    margin: auto;
+    padding: 2%;
+    width: 80%;
+    background-color: antiquewhite;
+}
+.mem-description{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mem-item{
+    padding: 2%;
+}
+.mem-img img{
+    width: 40%;
+}
+
+.mem-text{
+    font-size: 2.2em;
+}
+
+.hidden{
+    display: none;
+}
+
+@media only screen and (max-width: 1920px) {
+    .mem-text{
+        font-size: 2em;
+    }
+    
+    .mems{
+        border: 3px solid #cccccc;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .mem-text{
+        font-size: 1.5em;
+    }
+    .mems{
+        border: 2px solid #cccccc;
+    }
+    
+}
+
+@media only screen and (max-width: 320px) {
+    .mem-text{
+        font-size: 1em;
+    }
+
+    .mems{
+        border: 1px solid #cccccc;
+    }
+    
+}
