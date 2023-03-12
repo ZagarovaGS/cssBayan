@@ -33,7 +33,7 @@ body{
     display: block;
 }
 
-.mem-item input:checked +img +div {
+.mem-item input:checked +img +.open-item {
 display: inline-block;
 }
 
@@ -41,7 +41,16 @@ display: inline-block;
     display: none;
 }
 
+
 .mem-item:hover .mems-img{
+    display: inline-block;
+}
+
+.mem-item:hover .lock-icon{
+    display: none;
+}
+
+.mem-item:hover .open-item{
     display: inline-block;
 }
 
