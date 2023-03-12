@@ -8,6 +8,7 @@ body{
     width: 80%;
     background-color: antiquewhite;
 }
+
 .mem-description{
     display: flex;
     justify-content: space-between;
@@ -27,6 +28,23 @@ body{
 .hidden{
     display: none;
 }
+
+.mems:hover .lock-icon {
+    display: block;
+}
+
+.mem-item input:checked +img +div {
+display: inline-block;
+}
+
+.mem-item input:not(:checked) +img {
+    display: none;
+}
+
+.mem-item:hover .mems-img{
+    display: inline-block;
+}
+
 
 @media only screen and (max-width: 1920px) {
     .mem-text{
