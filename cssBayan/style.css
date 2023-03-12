@@ -44,6 +44,7 @@ display: inline-block;
 
 .mem-item:hover .mems-img{
     display: inline-block;
+    cursor: pointer;
 }
 
 .mem-item:hover .lock-icon{
@@ -82,6 +83,7 @@ display: inline-block;
 
     .mems{
         border: 1px solid #cccccc;
+        background-color: #cbebf2;
     }
     
 }
